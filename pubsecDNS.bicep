@@ -58,7 +58,7 @@ var builtInPolicyMap = {
   'Microsoft.Storage/storageAccounts-web': '9adab2a5-05ba-4fbd-831a-5bf958d04218'
   // 'Microsoft.CognitiveServices/accounts-account': 'c4bc6f10-cb41-49eb-b000-d5ab82e2a091' // Removed - needs custom policy for multi-zone support (AI Foundry)
   'Microsoft.Web/sites-sites': 'b318f84a-b872-429b-ac6d-a01b96814452'
-  'Microsoft.ContainerRegistry/registries-registry': 'e9585a95-5b8c-4d03-b193-dc7eb5ac4c32'
+  // 'Microsoft.ContainerRegistry/registries-registry': 'e9585a95-5b8c-4d03-b193-dc7eb5ac4c32' // Removed - needs custom policy for multi-zone support (data plane zone)
   'Microsoft.SignalRService/signalR-signalR': 'b0e86710-7fb7-4a6c-a064-32e9b829509e'
   'Microsoft.EventGrid/topics-topic': 'baf19753-7502-405f-8745-370519b20483'
   'Microsoft.EventGrid/domains-domain': 'd389df0a-e0d7-4607-833c-75a6fdac2c2d'

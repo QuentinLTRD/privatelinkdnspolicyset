@@ -306,11 +306,22 @@
                 },
                 {
                     "privateLinkServiceNamespace": "Microsoft.ContainerRegistry/registries",
-                    "zone": "privatelink.azurecr.io",
-                    "filterLocationLike": "*",
+                    "zone": "canadacentral.data.privatelink.azurecr.io",
+                    "filterLocationLike": "canadacentral",
                     "groupId": "registry",
                     "privateDnsZoneConfigs": [
-                        "privatelink.azurecr.io"
+                        "privatelink.azurecr.io",
+                        "canadacentral.data.privatelink.azurecr.io"
+                    ]
+                },
+                {
+                    "privateLinkServiceNamespace": "Microsoft.ContainerRegistry/registries",
+                    "zone": "canadaeast.data.privatelink.azurecr.io",
+                    "filterLocationLike": "canadaeast",
+                    "groupId": "registry",
+                    "privateDnsZoneConfigs": [
+                        "privatelink.azurecr.io",
+                        "canadaeast.data.privatelink.azurecr.io"
                     ]
                 },
                 {
